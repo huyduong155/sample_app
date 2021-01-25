@@ -1,14 +1,27 @@
 vi:
-  titles: "Chao Mung Den Sample App"
-  base_title: "Huướng dẫn Ruby trên  Rails đơn giản"
-  home: "Trang chu"
-  help: "Tro giup"
-  login: "Dang nhap"
-  english: "Tieng Anh"
-  viet: "Tieng Viet"
-  sign_up_now: "Dang ki ngay!"
-  hb: "huong dan Ruby tren Rails"
-  body: "Day la trang chu %{link} don gian."
+  # layout
+  login: "Đăng nhập"
+  english: "Tiếng Anh"
+  viet: "Tiếng Việt"
+  # home page
+  titles: "Chào Mừng Đến Sample App"
+  home: "Trang chủ"
+  sign_up_now: "Đăng kí ngay!"
+  hb: "hướng dẫn Ruby trên Rails"
+  body: "Đây là trang chủ %{link} đơn giản."
+  # help page
+  help: "Trợ giúp"
   l1: "trang trợ giúp Hướng dẫn về Rails"
   l2: "Hướng dẫn Ruby on Rails"
   body_help: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại %{link1}.Để nhận trợ giúp về ứng dụng mẫu này, hãy xem sách %{link2}."
+  # signin page
+  create_my_account: "Thêm"
+  signup: "Đăng kí"
+  name: "Tên"
+  email: "Email"
+  password: "Mật khẩu"
+  confirmation: "Xác nhận mật khẩu"
+  # user page
+  welcome_to_the_sample_app: "Chào Mừng Đến Với sample app"
+  error_find_user: "Không tìm thấy dữ liệu"
+  the_form_contains_error: "Biểu mẫu có %{count} lỗi"
