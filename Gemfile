@@ -4,8 +4,9 @@ git_source(:github){|repo| "https://github.com/#{repo}.git"}
 
 ruby "2.7.0"
 # Gemfile
-gem 'rails-i18n'
+gem "bcrypt", "3.1.11"
 gem "bootstrap-sass", "~> 3.4.1"
+gem "rails-i18n"
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem "rails", "~> 6.0.3", ">= 6.0.3.4"
 # Use sqlite3 as the database for Active Record
@@ -42,9 +43,9 @@ end
 group :development do
   # Access an interactive
   gem "listen", "~> 3.2"
-  gem "web-console", ">= 3.3.0"
   gem "spring"
   gem "spring-watcher-listen", "~> 2.0.0"
+  gem "web-console", ">= 3.3.0"
 end
 
 group :test do
@@ -57,4 +58,3 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-

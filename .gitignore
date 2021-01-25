@@ -9,11 +9,14 @@
 /test/tmp/
 /test/version_tmp/
 /tmp/
-
 /node_modules
-.framgia-ci-reports/
+.framgia-ci-reports/*
 .framgia-ci-result.temp.yml
 config/database.yml
+/db/.sqlite3
+/db/.sqlite3-journal
+/db/.sqlite3-[0-9]
+
 db/development.sqlite3
 /log/*
 /tmp/*
@@ -66,3 +69,4 @@ build-iPhoneSimulator/
 
 # Used by RuboCop. Remote config files pulled in from inherit_from directive.
 # .rubocop-https?--*
+/config/application.yml
