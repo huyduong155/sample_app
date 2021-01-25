@@ -31,3 +31,15 @@
 
 en:
   hello: "Hello world"
+  titles: "Welcome to the Sample App"
+  home: "Home"
+  help: "Help"
+  login: "Log in"
+  english: "English"
+  viet: "Vietnamese"
+  sign_up_now: "Sign up now!"
+  hb: "Ruby on Rails Tutorial"
+  body: "This is the home page for the %{link} sample application."
+  l1: "Rails Tutorial help page"
+  l2: "Rails Tutorial book"
+  body_help: "Get help on the Ruby on Rails Tutorial at the %{link1}.To get help on this sample app, see the Ruby on %{link2}."

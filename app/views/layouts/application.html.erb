@@ -13,6 +13,8 @@
 
   <body>
     <%= render "layouts/header" %>
+    <%= link_to t("english"), locale:"en" %>
+    <%= link_to t("viet"), locale:"vi" %>
     <div class="container">
       <%= yield %>
     </div>

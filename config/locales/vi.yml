@@ -1,0 +1,13 @@
+vi:
+  titles: "Chao Mung Den Sample App"
+  home: "Trang chu"
+  help: "Tro giup"
+  login: "Dang nhap"
+  english: "Tieng Anh"
+  viet: "Tieng Viet"
+  sign_up_now: "Dang ki ngay!"
+  hb: "huong dan Ruby tren Rails"
+  body: "Day la trang chu %{link} don gian."
+  l1: "trang trợ giúp Hướng dẫn về Rails"
+  l2: "Hướng dẫn Ruby on Rails"
+  body_help: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại %{link1}.Để nhận trợ giúp về ứng dụng mẫu này, hãy xem sách %{link2}."
