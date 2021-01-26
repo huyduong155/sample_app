@@ -3,6 +3,9 @@ vi:
   login: "Đăng nhập"
   english: "Tiếng Anh"
   viet: "Tiếng Việt"
+  logout: "Đăng xuất"
+  profile: "Thông tin cá nhân"
+  setting: "Cài đặt"
   # home page
   titles: "Chào Mừng Đến Sample App"
   home: "Trang chủ"
@@ -25,3 +28,5 @@ vi:
   welcome_to_the_sample_app: "Chào Mừng Đến Với sample app"
   error_find_user: "Không tìm thấy dữ liệu"
   the_form_contains_error: "Biểu mẫu có %{count} lỗi"
+  # login page
+  new_user?: "Tài khoản mới? "
