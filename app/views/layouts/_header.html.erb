@@ -1,0 +1,25 @@
+<header class="navbar navbar-fixed-top navbar-inverse">
+  <div class="container">
+    <%= link_to "sample app", root_path , id: "logo" %>
+    <nav class="dropdown">
+      <ul class="nav navbar-nav navbar-right">
+        <li><%= link_to t("home"), root_path %></li>
+        <li><%= link_to t("help"), static_pages_help_path %></li>
+        <li><%= link_to t("users"), users_path %></li>
+        <% if logged_in? %>
+        <li><%= link_to t("profile"), current_user %></li>
+        <li><%= link_to t("setting"), edit_user_path(current_user) %></li>
+        <li><%= link_to t("logout"), logout_path, method: :delete %></li>
+        <% else %>
+        <li><%= link_to t("login"), login_path %></li>
+        <% end %>
+        <li style="margin-top: 14px; margin-left: 7px" ><%= t("language")%>
+          <ul class="pop" >
+            <li><%= link_to t("english"), locale:"en" %></li>
+            <li><%= link_to t("viet"), locale:"vi" %></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>

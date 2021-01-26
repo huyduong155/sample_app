@@ -9,6 +9,13 @@
 /test/tmp/
 /test/version_tmp/
 /tmp/
+/node_modules
+<<<<<<< HEAD
+.framgia-ci-reports/
+.framgia-ci-result.temp.yml
+config/database.yml
+=======
+>>>>>>> eb79e36... Init_project
 
 # Used by dotenv library to load environment variables.
 # .env
