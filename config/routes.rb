@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   scope "(:locale)", locale: /en|vi/ do
     resources :microposts
     resources :users
+    resources :account_activations, only: :edit
   end
   get "/signup", to: "users#new"
   post "/signup", to: "users#create"
@@ -11,5 +12,6 @@ Rails.application.routes.draw do
   get "/login", to: "sessions#new"
   post "/login", to: "sessions#create"
   delete "/logout", to: "sessions#destroy"
+  get "/account_activations", to: "account_activations#edit"
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end

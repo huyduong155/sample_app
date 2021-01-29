@@ -5,8 +5,4 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-User.create!(name: "Huy1",
-email: "huy1@gmail.com",
-password: "123456",
-password_confirmation: "123456",
-admin: true)
+User.create!(name: "Example User", email: "huy2@gmail.com", password: "123456", password_confirmation: "123456", admin: true, activated: true, activated_at: Time.zone.now)

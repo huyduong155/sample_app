@@ -37,3 +37,10 @@ vi:
   # login page
   new_user?: "Tài khoản mới? "
   remember_me: "Ghi nhớ tài khoản"
+  profile_updated: "Cập nhật tài khoản thành công"
+  please_check_your_email_to_activate_your_account: "Kiểm tra mail để kích hoạt tài khoản"
+  please_log_in: "Bạn cần phải đăng nhập"
+  user_deleted: "Đã xoá thành công"
+  account_activated: "Kích hoạt tài khoản thành công"
+  invalid_activation_link: "Đường dẫn kích hoạt không hợp lệ"
+  account_not_activated: "Tài khoản chưa được kích hoạt. Kiểm tra mail để kích hoạt"
