@@ -1,4 +1,3 @@
-
 en:
   # layout
   hello: "Hello world"
@@ -36,6 +35,7 @@ en:
   delete: "Delete"
   users: "Users"
   edit_user: "Edit user"
+  view_my_profile: "view my profile"
   # login page
   new_user?: "New User? "
   remember_me: "Remember me"
@@ -55,3 +55,12 @@ en:
   email_address_not_found: "Email address not found"
   please_enter_password: "Please enter password"
   updated: "Updated"
+  invalid_email_password_combination: "Invalid email password combination"
+  micropost_created: "Micropost created!"
+  micropost_deleted: "Micropost deleted"
+  micropost_feed: "Micropost Feed"
+  micropost: "%{count} micropost"
+  post: "Post"
+  compose_new_micropost: "Compose new micropost..."
+  microposts: "Microposts (%{count})"
+  posted_ago: "Posted %{time} ago."

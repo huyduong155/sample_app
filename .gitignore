@@ -24,6 +24,7 @@ db/development.sqlite3
 !/log/.keep
 !/tmp/.keep
 /puplic/packs
+/storage
 # Used by dotenv library to load environment variables.
 # .env
 

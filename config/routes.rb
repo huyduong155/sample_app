@@ -17,7 +17,6 @@ Rails.application.routes.draw do
     delete "/logout", to: "sessions#destroy"
     get "/account_activations", to: "account_activations#edit"
     resources :password_resets, only: [:new, :create, :edit, :update]
+    resources :microposts, only: [:create, :destroy]
   end
-
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
