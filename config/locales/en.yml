@@ -1,7 +1,12 @@
 en:
+  # layout
+  hello: "Hello world"
   english: "English"
   viet: "Vietnamese"
   login: "Log in"
+  logout: "Log out"
+  profile: "Profile"
+  setting: "Setting"
   # home page
   titles: "Welcome to the Sample App"
   home: "Home"
@@ -24,3 +29,5 @@ en:
   welcome_to_the_sample_app: "welcome to the sample app"
   error_find_user: "Error find user"
   the_form_contains_error: "The form contains %{count} error"
+  # login page
+  new_user?: "New User? "
