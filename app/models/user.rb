@@ -1,6 +1,12 @@
 class User < ApplicationRecord
   attr_accessor :remember_token, :activation_token, :reset_token
   has_many :microposts, dependent: :destroy
+  has_many :active_relationships, class_name: Relationship.name,
+           foreign_key: :follower_id, dependent: :destroy
+  has_many :passive_relationships, class_name: Relationship.name,
+           foreign_key: :followed_id, dependent: :destroy
+  has_many :following, through: :active_relationships, source: :followed
+  has_many :followers, through: :passive_relationships, source: :follower
   validates :name, presence: true
   VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i.freeze
   validates :email, presence: true,
@@ -10,6 +16,18 @@ class User < ApplicationRecord
   before_save :downcase_email
   before_create :create_activation_digest
   has_secure_password
+
+  def follow other_user # Follows a user.
+    following << other_user
+  end
+
+  def unfollow other_user # Unfollows a user.
+    following.delete other_user
+  end
+
+  def following? other_user # Returns if the current user is following the other_user or not
+    following.include? other_user
+  end
 
   def remember
     self.remember_token = User.new_token
@@ -64,7 +82,7 @@ class User < ApplicationRecord
   end
 
   def feed
-    microposts
+    Micropost.where("user_id IN (?) OR user_id = ?", following_ids, id)
   end
 
   private

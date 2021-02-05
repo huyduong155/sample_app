@@ -64,3 +64,8 @@ vi:
   compose_new_micropost: "Tạo bài đăng mới..."
   microposts: "Bài đăng (%{count})"
   posted_ago: "Đã đăng %{time} trước."
+  following: "Đang theo dõi"
+  followers: "Người theo dõi"
+  b_microposts: "Bài đăng:"
+  unfollow: "Bỏ theo dõi"
+  follow: "Theo dõi"

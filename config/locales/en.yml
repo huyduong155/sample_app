@@ -64,3 +64,8 @@ en:
   compose_new_micropost: "Compose new micropost..."
   microposts: "Microposts (%{count})"
   posted_ago: "Posted %{time} ago."
+  following: "Following"
+  followers: "Followers"
+  b_microposts: "Microposts:"
+  unfollow: "Unfollow"
+  follow: "Follow"
