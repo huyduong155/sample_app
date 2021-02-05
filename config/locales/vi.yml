@@ -30,3 +30,4 @@ vi:
   the_form_contains_error: "Biểu mẫu có %{count} lỗi"
   # login page
   new_user?: "Tài khoản mới? "
+  remember_me: "Ghi nhớ tài khoản"

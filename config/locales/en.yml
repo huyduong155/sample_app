@@ -1,6 +1,5 @@
 en:
   # layout
-  hello: "Hello world"
   english: "English"
   viet: "Vietnamese"
   login: "Log in"
@@ -31,3 +30,4 @@ en:
   the_form_contains_error: "The form contains %{count} error"
   # login page
   new_user?: "New User? "
+  remember_me: "Remember me"
